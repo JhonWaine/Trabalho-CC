@@ -1,0 +1,6 @@
+Program
+  VarDecl(int, x)
+  VarDecl(double, y)
+    FloatLit(3.14)
+  VarDecl(string, texto)
+    StringLit("ok")

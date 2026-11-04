@@ -1,0 +1,15 @@
+Program
+  FuncDecl(void, calcular)
+    Param(int, a)
+    Param(double, b)
+    Block
+      While
+        Bin(<)
+          Id(a)
+          IntLit(10)
+        Block
+          Assign(a)
+            Bin(+)
+              Id(a)
+              IntLit(1)
+      Return
